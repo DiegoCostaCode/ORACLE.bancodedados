@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="008691D8-7096-A740-EDBC-A5EFC229CACE" name="Funcionarios">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="ED17B715-3F81-3537-F88E-84896022331B" name="CIDADE">
 <createdBy>logonrmlocal</createdBy>
-<createdTime>2023-09-11 12:06:03 UTC</createdTime>
+<createdTime>2023-09-25 12:01:28 UTC</createdTime>
 <ownerDesignName>MODELO_LOGICO</ownerDesignName>
 <engineerTo>
 <item key="4B44BF50-6BDA-865D-4430-A2A2353F5BFE" value="true"/>
@@ -15,9 +15,9 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="ID" id="5F4A008E-E469-448E-58FA-29CF0A7C48AF">
+<Attribute name="ID" id="7EDFC6C7-0721-3EB7-3BFE-FEC970A5CAC3">
 <createdBy>logonrmlocal</createdBy>
-<createdTime>2023-09-11 12:06:34 UTC</createdTime>
+<createdTime>2023-09-25 12:01:32 UTC</createdTime>
 <ownerDesignName>MODELO_LOGICO</ownerDesignName>
 <engineerTo>
 <item key="4B44BF50-6BDA-865D-4430-A2A2353F5BFE" value="true"/>
@@ -27,9 +27,9 @@
 <logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="NOME" id="30C13447-B723-E314-EECC-0C232917CDA0">
+<Attribute name="DESCRICAO" id="2A4CFD98-9AE6-572E-5AB3-5F599E0B0C08">
 <createdBy>logonrmlocal</createdBy>
-<createdTime>2023-09-11 12:06:50 UTC</createdTime>
+<createdTime>2023-09-25 12:01:45 UTC</createdTime>
 <ownerDesignName>MODELO_LOGICO</ownerDesignName>
 <engineerTo>
 <item key="4B44BF50-6BDA-865D-4430-A2A2353F5BFE" value="true"/>
@@ -38,26 +38,11 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>30</dataTypeSize>
-<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="CARGO" id="964CFA20-661D-51AA-16BF-F3B2052D8A18">
+<Attribute name="ID_ESTADO" id="3311CFE1-A943-AE98-6B51-A07D192564B9">
 <createdBy>logonrmlocal</createdBy>
-<createdTime>2023-09-11 12:06:56 UTC</createdTime>
-<ownerDesignName>MODELO_LOGICO</ownerDesignName>
-<engineerTo>
-<item key="4B44BF50-6BDA-865D-4430-A2A2353F5BFE" value="true"/>
-</engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>30</dataTypeSize>
-<ownDataTypeParameters>30,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="SALARIO" id="36120EF1-376B-D23B-5BF1-87267A13C49A">
-<createdBy>logonrmlocal</createdBy>
-<createdTime>2023-09-11 12:07:49 UTC</createdTime>
+<createdTime>2023-09-25 12:05:41 UTC</createdTime>
 <ownerDesignName>MODELO_LOGICO</ownerDesignName>
 <engineerTo>
 <item key="4B44BF50-6BDA-865D-4430-A2A2353F5BFE" value="true"/>
@@ -66,34 +51,20 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypeScale>30</dataTypeScale>
-<ownDataTypeParameters>,,30</ownDataTypeParameters>
-</Attribute>
-<Attribute name="CONTRATACAO" id="A07538E7-1E98-99A9-A368-40224B8CB425">
-<createdBy>logonrmlocal</createdBy>
-<createdTime>2023-09-11 12:08:12 UTC</createdTime>
-<ownerDesignName>MODELO_LOGICO</ownerDesignName>
-<engineerTo>
-<item key="4B44BF50-6BDA-865D-4430-A2A2353F5BFE" value="true"/>
-</engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="782FA57B-34C1-8B95-A812-184089977DF5" name="Funcionarios PK">
+<identifier id="E131672E-EA27-513C-30BC-061507264724" name="CIDADE PK">
 <createdBy>logonrmlocal</createdBy>
-<createdTime>2023-09-25 11:59:53 UTC</createdTime>
+<createdTime>2023-09-25 12:01:43 UTC</createdTime>
 <ownerDesignName>MODELO_LOGICO</ownerDesignName>
 <engineerTo>
 <item key="4B44BF50-6BDA-865D-4430-A2A2353F5BFE" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>5F4A008E-E469-448E-58FA-29CF0A7C48AF</attributeRef>
+<attributeRef>7EDFC6C7-0721-3EB7-3BFE-FEC970A5CAC3</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

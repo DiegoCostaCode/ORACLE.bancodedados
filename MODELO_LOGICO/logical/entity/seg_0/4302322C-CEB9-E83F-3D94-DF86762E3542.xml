@@ -15,14 +15,13 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="ID_ITEM" id="5742AFC9-69EC-1267-71ED-72213FE2D1A2">
+<Attribute name="ID" id="5742AFC9-69EC-1267-71ED-72213FE2D1A2">
 <createdBy>logonrmlocal</createdBy>
 <createdTime>2023-09-11 12:14:50 UTC</createdTime>
 <ownerDesignName>MODELO_LOGICO</ownerDesignName>
 <engineerTo>
 <item key="4B44BF50-6BDA-865D-4430-A2A2353F5BFE" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
@@ -55,4 +54,18 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="3D03198E-98A7-A3F6-2962-C4DA7A49761A" name="ESTOQUE PK">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-09-25 12:00:08 UTC</createdTime>
+<ownerDesignName>MODELO_LOGICO</ownerDesignName>
+<engineerTo>
+<item key="4B44BF50-6BDA-865D-4430-A2A2353F5BFE" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>5742AFC9-69EC-1267-71ED-72213FE2D1A2</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
 </Entity>

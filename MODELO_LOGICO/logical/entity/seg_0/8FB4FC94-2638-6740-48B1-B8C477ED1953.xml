@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="FC2CC0A9-61E0-CE9A-3F13-DEAF97759D92" name="COMPRA">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="8FB4FC94-2638-6740-48B1-B8C477ED1953" name="BAIRRO">
 <createdBy>logonrmlocal</createdBy>
-<createdTime>2023-09-11 12:13:39 UTC</createdTime>
+<createdTime>2023-09-25 12:04:26 UTC</createdTime>
 <ownerDesignName>MODELO_LOGICO</ownerDesignName>
 <engineerTo>
 <item key="4B44BF50-6BDA-865D-4430-A2A2353F5BFE" value="true"/>
@@ -15,21 +15,9 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="ID" id="7F886D33-0DDC-CB24-3CCA-59ACD56CEE84">
+<Attribute name="ID" id="2357078F-3AE9-41C4-A25D-8F59CFC482C7">
 <createdBy>logonrmlocal</createdBy>
-<createdTime>2023-09-11 12:13:49 UTC</createdTime>
-<ownerDesignName>MODELO_LOGICO</ownerDesignName>
-<engineerTo>
-<item key="4B44BF50-6BDA-865D-4430-A2A2353F5BFE" value="true"/>
-</engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="DATA_VENDA" id="408ABCE1-1BEC-A35E-DA00-F31E8B87A4CE">
-<createdBy>logonrmlocal</createdBy>
-<createdTime>2023-09-11 12:13:58 UTC</createdTime>
+<createdTime>2023-09-25 12:04:43 UTC</createdTime>
 <ownerDesignName>MODELO_LOGICO</ownerDesignName>
 <engineerTo>
 <item key="4B44BF50-6BDA-865D-4430-A2A2353F5BFE" value="true"/>
@@ -40,9 +28,22 @@
 <logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="TOTAL" id="C3FF3767-9BCF-7447-6654-7702158091A2">
+<Attribute name="DESCRICAO" id="C4C0EC44-0DB0-44A6-E958-6061077EB306">
 <createdBy>logonrmlocal</createdBy>
-<createdTime>2023-09-11 12:14:25 UTC</createdTime>
+<createdTime>2023-09-25 12:04:50 UTC</createdTime>
+<ownerDesignName>MODELO_LOGICO</ownerDesignName>
+<engineerTo>
+<item key="4B44BF50-6BDA-865D-4430-A2A2353F5BFE" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_CIDADE" id="3CCDA876-9C44-62BC-0486-1D4496B97452">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-09-25 12:06:04 UTC</createdTime>
 <ownerDesignName>MODELO_LOGICO</ownerDesignName>
 <engineerTo>
 <item key="4B44BF50-6BDA-865D-4430-A2A2353F5BFE" value="true"/>
@@ -54,18 +55,4 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
-<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="9872D0F4-2E59-5B17-FE6C-F155B9575EE0" name="COMPRA PK">
-<createdBy>logonrmlocal</createdBy>
-<createdTime>2023-09-25 12:00:16 UTC</createdTime>
-<ownerDesignName>MODELO_LOGICO</ownerDesignName>
-<engineerTo>
-<item key="4B44BF50-6BDA-865D-4430-A2A2353F5BFE" value="true"/>
-</engineerTo>
-<pk>true</pk>
-<usedAttributes>
-<attributeRef>7F886D33-0DDC-CB24-3CCA-59ACD56CEE84</attributeRef>
-</usedAttributes>
-</identifier>
-</identifiers>
 </Entity>

@@ -15,7 +15,7 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="ID_CLIENTE" id="2D6E466D-F0E3-83F9-6FCD-0FF0F850471D">
+<Attribute name="ID" id="2D6E466D-F0E3-83F9-6FCD-0FF0F850471D">
 <createdBy>logonrmlocal</createdBy>
 <createdTime>2023-09-11 11:21:33 UTC</createdTime>
 <ownerDesignName>MODELO_LOGICO</ownerDesignName>
@@ -41,7 +41,7 @@
 <dataTypeSize>30</dataTypeSize>
 <ownDataTypeParameters>30,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="ENDERECO" id="CEDD75EF-CB25-3FBF-2572-4323D47CB8C9">
+<Attribute name="ID_ENDERECO" id="CEDD75EF-CB25-3FBF-2572-4323D47CB8C9">
 <createdBy>logonrmlocal</createdBy>
 <createdTime>2023-09-11 11:24:27 UTC</createdTime>
 <ownerDesignName>MODELO_LOGICO</ownerDesignName>

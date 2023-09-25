@@ -22,7 +22,6 @@
 <engineerTo>
 <item key="4B44BF50-6BDA-865D-4430-A2A2353F5BFE" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
@@ -112,4 +111,18 @@
 <ownDataTypeParameters>30,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="5E67E204-FEA6-081E-36F4-83787D8B7072" name="PRODUTOS_ELETRONICOS PK">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-09-25 11:59:57 UTC</createdTime>
+<ownerDesignName>MODELO_LOGICO</ownerDesignName>
+<engineerTo>
+<item key="4B44BF50-6BDA-865D-4430-A2A2353F5BFE" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>2CEECFDC-68A8-CA44-FF5A-AEAEEC44CB23</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
 </Entity>

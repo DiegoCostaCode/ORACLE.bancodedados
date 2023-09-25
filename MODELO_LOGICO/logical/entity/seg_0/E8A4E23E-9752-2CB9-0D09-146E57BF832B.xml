@@ -15,14 +15,13 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="ID_FORNECEDOR" id="2D4F8DC9-9D4B-CBCC-29A7-0A2C572E35C8">
+<Attribute name="ID" id="2D4F8DC9-9D4B-CBCC-29A7-0A2C572E35C8">
 <createdBy>logonrmlocal</createdBy>
 <createdTime>2023-09-11 12:12:09 UTC</createdTime>
 <ownerDesignName>MODELO_LOGICO</ownerDesignName>
 <engineerTo>
 <item key="4B44BF50-6BDA-865D-4430-A2A2353F5BFE" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
@@ -85,4 +84,18 @@
 <ownDataTypeParameters>30,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="0983146B-D519-06CE-3566-D80D3D2AC7BC" name="FORNECEDOR PK">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-09-25 12:00:22 UTC</createdTime>
+<ownerDesignName>MODELO_LOGICO</ownerDesignName>
+<engineerTo>
+<item key="4B44BF50-6BDA-865D-4430-A2A2353F5BFE" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>2D4F8DC9-9D4B-CBCC-29A7-0A2C572E35C8</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
 </Entity>
