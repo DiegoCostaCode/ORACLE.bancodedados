@@ -83,6 +83,20 @@
 <dataTypeSize>30</dataTypeSize>
 <ownDataTypeParameters>30,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="ID1" id="47552F05-0CAF-3E5B-159A-78990014D454">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-10-02 11:19:13 UTC</createdTime>
+<generatorID>9B190FF9-28D9-13C1-4615-AB844010DCBB</generatorID>
+<ownerDesignName>MODELO_LOGICO</ownerDesignName>
+<engineerTo>
+<item key="4B44BF50-6BDA-865D-4430-A2A2353F5BFE" value="true"/>
+</engineerTo>
+<referedAttribute>5742AFC9-69EC-1267-71ED-72213FE2D1A2</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="0983146B-D519-06CE-3566-D80D3D2AC7BC" name="FORNECEDOR PK">
@@ -95,6 +109,7 @@
 <pk>true</pk>
 <usedAttributes>
 <attributeRef>2D4F8DC9-9D4B-CBCC-29A7-0A2C572E35C8</attributeRef>
+<attributeRef>47552F05-0CAF-3E5B-159A-78990014D454</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

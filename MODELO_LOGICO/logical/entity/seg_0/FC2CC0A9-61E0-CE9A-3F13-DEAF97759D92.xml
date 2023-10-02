@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="FC2CC0A9-61E0-CE9A-3F13-DEAF97759D92" name="COMPRA">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="FC2CC0A9-61E0-CE9A-3F13-DEAF97759D92" name="VENDA">
 <createdBy>logonrmlocal</createdBy>
 <createdTime>2023-09-11 12:13:39 UTC</createdTime>
 <ownerDesignName>MODELO_LOGICO</ownerDesignName>
@@ -53,6 +53,20 @@
 <logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="ID1" id="0ECAC200-4AB9-C056-1F50-383478A049D8">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-10-02 11:16:31 UTC</createdTime>
+<generatorID>255219E5-14F5-A114-BEC7-B31F3BE05365</generatorID>
+<ownerDesignName>MODELO_LOGICO</ownerDesignName>
+<engineerTo>
+<item key="4B44BF50-6BDA-865D-4430-A2A2353F5BFE" value="true"/>
+</engineerTo>
+<referedAttribute>5F4A008E-E469-448E-58FA-29CF0A7C48AF</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="9872D0F4-2E59-5B17-FE6C-F155B9575EE0" name="COMPRA PK">
@@ -65,6 +79,7 @@
 <pk>true</pk>
 <usedAttributes>
 <attributeRef>7F886D33-0DDC-CB24-3CCA-59ACD56CEE84</attributeRef>
+<attributeRef>0ECAC200-4AB9-C056-1F50-383478A049D8</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

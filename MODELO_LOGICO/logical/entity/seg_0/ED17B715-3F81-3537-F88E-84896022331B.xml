@@ -53,6 +53,20 @@
 <logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="ID1" id="5BC8D0DD-BC41-46A4-17BE-EE7456B388D8">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-10-02 11:10:28 UTC</createdTime>
+<generatorID>B6E94334-99EA-0AB7-C0E9-F124DD1BC729</generatorID>
+<ownerDesignName>MODELO_LOGICO</ownerDesignName>
+<engineerTo>
+<item key="4B44BF50-6BDA-865D-4430-A2A2353F5BFE" value="true"/>
+</engineerTo>
+<referedAttribute>ECD91647-8F06-F8A5-3185-3341F8FBB34C</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="E131672E-EA27-513C-30BC-061507264724" name="CIDADE PK">

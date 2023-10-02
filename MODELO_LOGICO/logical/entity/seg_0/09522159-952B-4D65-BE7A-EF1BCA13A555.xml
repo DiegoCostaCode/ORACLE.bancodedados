@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="8FB4FC94-2638-6740-48B1-B8C477ED1953" name="BAIRRO">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="09522159-952B-4D65-BE7A-EF1BCA13A555" name="COMPRA">
 <createdBy>logonrmlocal</createdBy>
-<createdTime>2023-09-25 12:04:26 UTC</createdTime>
+<createdTime>2023-10-02 11:51:11 UTC</createdTime>
 <ownerDesignName>MODELO_LOGICO</ownerDesignName>
 <engineerTo>
 <item key="4B44BF50-6BDA-865D-4430-A2A2353F5BFE" value="true"/>
@@ -15,9 +15,21 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="ID" id="2357078F-3AE9-41C4-A25D-8F59CFC482C7">
+<Attribute name="ID" id="2C5BCE4A-0A2C-61AD-3A69-FAFF88CB5D42">
 <createdBy>logonrmlocal</createdBy>
-<createdTime>2023-09-25 12:04:43 UTC</createdTime>
+<createdTime>2023-10-02 11:51:17 UTC</createdTime>
+<ownerDesignName>MODELO_LOGICO</ownerDesignName>
+<engineerTo>
+<item key="4B44BF50-6BDA-865D-4430-A2A2353F5BFE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DATA_COMPRA" id="ED799E63-BAFC-D9DC-CA51-D4F71136AEA9">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-10-02 11:51:23 UTC</createdTime>
 <ownerDesignName>MODELO_LOGICO</ownerDesignName>
 <engineerTo>
 <item key="4B44BF50-6BDA-865D-4430-A2A2353F5BFE" value="true"/>
@@ -28,45 +40,32 @@
 <logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="DESCRICAO" id="C4C0EC44-0DB0-44A6-E958-6061077EB306">
+<Attribute name="PRECO" id="681E11FC-6DE8-0581-9268-B816EC845738">
 <createdBy>logonrmlocal</createdBy>
-<createdTime>2023-09-25 12:04:50 UTC</createdTime>
+<createdTime>2023-10-02 11:51:35 UTC</createdTime>
 <ownerDesignName>MODELO_LOGICO</ownerDesignName>
 <engineerTo>
 <item key="4B44BF50-6BDA-865D-4430-A2A2353F5BFE" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="ID_CIDADE" id="3CCDA876-9C44-62BC-0486-1D4496B97452">
-<createdBy>logonrmlocal</createdBy>
-<createdTime>2023-09-25 12:06:04 UTC</createdTime>
-<ownerDesignName>MODELO_LOGICO</ownerDesignName>
-<engineerTo>
-<item key="4B44BF50-6BDA-865D-4430-A2A2353F5BFE" value="true"/>
-</engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="ID1" id="03421815-B16B-2679-F37D-C72767B8E89A">
-<createdBy>logonrmlocal</createdBy>
-<createdTime>2023-10-02 11:10:34 UTC</createdTime>
-<generatorID>30F7558E-EFE2-5D8F-C995-4A758661FAE9</generatorID>
-<ownerDesignName>MODELO_LOGICO</ownerDesignName>
-<engineerTo>
-<item key="4B44BF50-6BDA-865D-4430-A2A2353F5BFE" value="true"/>
-</engineerTo>
-<referedAttribute>7EDFC6C7-0721-3EB7-3BFE-FEC970A5CAC3</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="891F9525-ECF0-0696-B458-F6778C0A852C" name="COMPRA PK">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-10-02 11:51:46 UTC</createdTime>
+<ownerDesignName>MODELO_LOGICO</ownerDesignName>
+<engineerTo>
+<item key="4B44BF50-6BDA-865D-4430-A2A2353F5BFE" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>2C5BCE4A-0A2C-61AD-3A69-FAFF88CB5D42</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
 </Entity>

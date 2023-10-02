@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="FF8CAEA3-8E8B-A41C-8F75-0599C4BFCD98" name="ENDERECO_CLIENTE">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="995ED31C-1AFB-D7D3-0E32-44CFA02E7A1E" name="LOJA">
 <createdBy>logonrmlocal</createdBy>
-<createdTime>2023-09-25 12:06:26 UTC</createdTime>
+<createdTime>2023-10-02 11:16:55 UTC</createdTime>
 <ownerDesignName>MODELO_LOGICO</ownerDesignName>
 <engineerTo>
 <item key="4B44BF50-6BDA-865D-4430-A2A2353F5BFE" value="true"/>
@@ -15,9 +15,9 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="ID" id="C71E49DE-650C-33D2-9D4D-758F945CCE62">
+<Attribute name="ID" id="7C5CA287-021F-9CF6-14E9-21C4AF032EB2">
 <createdBy>logonrmlocal</createdBy>
-<createdTime>2023-09-25 12:06:30 UTC</createdTime>
+<createdTime>2023-10-02 11:16:59 UTC</createdTime>
 <ownerDesignName>MODELO_LOGICO</ownerDesignName>
 <engineerTo>
 <item key="4B44BF50-6BDA-865D-4430-A2A2353F5BFE" value="true"/>
@@ -28,9 +28,9 @@
 <logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="ID_BAIRRO" id="24D9E9DF-57BE-9049-E061-35EC3A571958">
+<Attribute name="ID_ENDERECO" id="C9624966-51B0-C8B1-BA31-74652FA8849F">
 <createdBy>logonrmlocal</createdBy>
-<createdTime>2023-09-25 12:06:51 UTC</createdTime>
+<createdTime>2023-10-02 11:17:09 UTC</createdTime>
 <ownerDesignName>MODELO_LOGICO</ownerDesignName>
 <engineerTo>
 <item key="4B44BF50-6BDA-865D-4430-A2A2353F5BFE" value="true"/>
@@ -41,79 +41,43 @@
 <logicalDatatype>LOGDT024</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="ID_PAIS" id="D30EE5DB-F779-C88A-50A3-D4AE0146941B">
+<Attribute name="ID1" id="B6D67EE3-B372-94FA-0CDB-3926070C84C5">
 <createdBy>logonrmlocal</createdBy>
-<createdTime>2023-09-25 12:18:19 UTC</createdTime>
+<createdTime>2023-10-02 11:18:51 UTC</createdTime>
+<generatorID>7DB6C665-0892-F4F1-8CDE-7C586D628F20</generatorID>
 <ownerDesignName>MODELO_LOGICO</ownerDesignName>
 <engineerTo>
 <item key="4B44BF50-6BDA-865D-4430-A2A2353F5BFE" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="ID_ESTADO" id="A8DD101C-A43F-6718-1138-ED7C79B75C47">
-<createdBy>logonrmlocal</createdBy>
-<createdTime>2023-09-25 12:18:31 UTC</createdTime>
-<ownerDesignName>MODELO_LOGICO</ownerDesignName>
-<engineerTo>
-<item key="4B44BF50-6BDA-865D-4430-A2A2353F5BFE" value="true"/>
-</engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="CEP" id="D805A106-233A-4FE6-C9CA-210467D2A518">
-<createdBy>logonrmlocal</createdBy>
-<createdTime>2023-09-25 12:18:44 UTC</createdTime>
-<ownerDesignName>MODELO_LOGICO</ownerDesignName>
-<engineerTo>
-<item key="4B44BF50-6BDA-865D-4430-A2A2353F5BFE" value="true"/>
-</engineerTo>
-<nullsAllowed>true</nullsAllowed>
+<referedAttribute>7F886D33-0DDC-CB24-3CCA-59ACD56CEE84</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="LOGRADOURO" id="17AB9A67-7D31-68B0-9CE0-A33F86DB6AC8">
+<Attribute name="ID11" id="FBC24F50-29B8-D604-3ECA-1B97F87D36BF">
 <createdBy>logonrmlocal</createdBy>
-<createdTime>2023-09-25 12:19:13 UTC</createdTime>
+<createdTime>2023-10-02 11:18:51 UTC</createdTime>
+<generatorID>7DB6C665-0892-F4F1-8CDE-7C586D628F20</generatorID>
 <ownerDesignName>MODELO_LOGICO</ownerDesignName>
 <engineerTo>
 <item key="4B44BF50-6BDA-865D-4430-A2A2353F5BFE" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="NUMERO" id="99F1AA89-B0AE-5E44-A532-4C23F2AF6F63">
-<createdBy>logonrmlocal</createdBy>
-<createdTime>2023-09-25 12:19:27 UTC</createdTime>
-<ownerDesignName>MODELO_LOGICO</ownerDesignName>
-<engineerTo>
-<item key="4B44BF50-6BDA-865D-4430-A2A2353F5BFE" value="true"/>
-</engineerTo>
-<nullsAllowed>true</nullsAllowed>
+<referedAttribute>0ECAC200-4AB9-C056-1F50-383478A049D8</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="REFERENCIA" id="0E686FA2-F009-9C97-F0AC-38D0B0295D0F">
+<Attribute name="ID2" id="74619FB4-39AB-88B4-66FE-43AD58669C31">
 <createdBy>logonrmlocal</createdBy>
-<createdTime>2023-09-25 12:19:38 UTC</createdTime>
+<createdTime>2023-10-02 11:52:43 UTC</createdTime>
+<generatorID>9ABB50D6-6C3C-7897-C5AD-0875FB5EC96F</generatorID>
 <ownerDesignName>MODELO_LOGICO</ownerDesignName>
 <engineerTo>
 <item key="4B44BF50-6BDA-865D-4430-A2A2353F5BFE" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
+<referedAttribute>2C5BCE4A-0A2C-61AD-3A69-FAFF88CB5D42</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
@@ -121,14 +85,19 @@
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="EDB8AF97-8FFD-512B-3751-77DBCE64774A" name="ENDERECO_CLIENTE PK">
+<identifier id="532CB11F-670A-EB72-892D-8A4C4C39156F" name="LOJA PK">
 <createdBy>logonrmlocal</createdBy>
-<createdTime>2023-10-02 11:19:42 UTC</createdTime>
+<createdTime>2023-10-02 11:18:51 UTC</createdTime>
 <ownerDesignName>MODELO_LOGICO</ownerDesignName>
 <engineerTo>
 <item key="4B44BF50-6BDA-865D-4430-A2A2353F5BFE" value="true"/>
 </engineerTo>
 <pk>true</pk>
+<usedAttributes>
+<attributeRef>B6D67EE3-B372-94FA-0CDB-3926070C84C5</attributeRef>
+<attributeRef>FBC24F50-29B8-D604-3ECA-1B97F87D36BF</attributeRef>
+<attributeRef>74619FB4-39AB-88B4-66FE-43AD58669C31</attributeRef>
+</usedAttributes>
 </identifier>
 </identifiers>
 </Entity>
