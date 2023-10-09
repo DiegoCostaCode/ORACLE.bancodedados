@@ -83,10 +83,10 @@
 <dataTypeSize>30</dataTypeSize>
 <ownDataTypeParameters>30,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="ID1" id="47552F05-0CAF-3E5B-159A-78990014D454">
+<Attribute name="ID1" id="C7024D68-93EA-AADB-15AD-CCECE53ACFB5">
 <createdBy>logonrmlocal</createdBy>
-<createdTime>2023-10-02 11:19:13 UTC</createdTime>
-<generatorID>9B190FF9-28D9-13C1-4615-AB844010DCBB</generatorID>
+<createdTime>2023-10-09 11:28:32 UTC</createdTime>
+<generatorID>BC0BE5C6-A20B-F925-5CF9-9CCBEA53C0C6</generatorID>
 <ownerDesignName>MODELO_LOGICO</ownerDesignName>
 <engineerTo>
 <item key="4B44BF50-6BDA-865D-4430-A2A2353F5BFE" value="true"/>
@@ -109,7 +109,6 @@
 <pk>true</pk>
 <usedAttributes>
 <attributeRef>2D4F8DC9-9D4B-CBCC-29A7-0A2C572E35C8</attributeRef>
-<attributeRef>47552F05-0CAF-3E5B-159A-78990014D454</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

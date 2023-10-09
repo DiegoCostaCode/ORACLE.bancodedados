@@ -67,6 +67,32 @@
 <logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="DATA_ENTEGRA" id="A3732875-47D4-3003-0975-07B495F92FE5">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-10-09 11:33:14 UTC</createdTime>
+<ownerDesignName>MODELO_LOGICO</ownerDesignName>
+<engineerTo>
+<item key="4B44BF50-6BDA-865D-4430-A2A2353F5BFE" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_ITEM_PRODUTO" id="1DB180B3-031C-7BF2-3788-165049B65DC2">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-10-09 11:33:36 UTC</createdTime>
+<ownerDesignName>MODELO_LOGICO</ownerDesignName>
+<engineerTo>
+<item key="4B44BF50-6BDA-865D-4430-A2A2353F5BFE" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="9872D0F4-2E59-5B17-FE6C-F155B9575EE0" name="COMPRA PK">

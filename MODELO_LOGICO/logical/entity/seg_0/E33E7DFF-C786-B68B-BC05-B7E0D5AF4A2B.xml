@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="09151079-48B4-02CB-9C91-09E95973701E" name="item_produto">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="E33E7DFF-C786-B68B-BC05-B7E0D5AF4A2B" name="DEPARTAMENTO">
 <createdBy>logonrmlocal</createdBy>
-<createdTime>2023-10-02 12:43:19 UTC</createdTime>
+<createdTime>2023-10-09 11:45:08 UTC</createdTime>
 <ownerDesignName>MODELO_LOGICO</ownerDesignName>
 <engineerTo>
 <item key="4B44BF50-6BDA-865D-4430-A2A2353F5BFE" value="true"/>
@@ -15,21 +15,22 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="ID" id="65D8B6E5-A908-39BC-2C3F-141EE3710904">
+<Attribute name="ID" id="54A8D229-B84F-8F09-DF2E-FB66139CB46C">
 <createdBy>logonrmlocal</createdBy>
-<createdTime>2023-10-09 11:35:02 UTC</createdTime>
+<createdTime>2023-10-09 11:45:16 UTC</createdTime>
 <ownerDesignName>MODELO_LOGICO</ownerDesignName>
 <engineerTo>
 <item key="4B44BF50-6BDA-865D-4430-A2A2353F5BFE" value="true"/>
 </engineerTo>
+<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="DESCRICAO" id="1440D60C-6767-2266-7791-9442608EE83E">
+<Attribute name="DESCRICAO" id="11EE3414-0995-79AB-3EB2-9C9B91FA55E4">
 <createdBy>logonrmlocal</createdBy>
-<createdTime>2023-10-09 11:35:12 UTC</createdTime>
+<createdTime>2023-10-09 11:45:24 UTC</createdTime>
 <ownerDesignName>MODELO_LOGICO</ownerDesignName>
 <engineerTo>
 <item key="4B44BF50-6BDA-865D-4430-A2A2353F5BFE" value="true"/>
@@ -41,18 +42,4 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
-<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="78ADFCE9-0AD5-9C1B-4420-6DB91231671E" name="item_produto PK">
-<createdBy>logonrmlocal</createdBy>
-<createdTime>2023-10-09 11:35:24 UTC</createdTime>
-<ownerDesignName>MODELO_LOGICO</ownerDesignName>
-<engineerTo>
-<item key="4B44BF50-6BDA-865D-4430-A2A2353F5BFE" value="true"/>
-</engineerTo>
-<pk>true</pk>
-<usedAttributes>
-<attributeRef>65D8B6E5-A908-39BC-2C3F-141EE3710904</attributeRef>
-</usedAttributes>
-</identifier>
-</identifiers>
 </Entity>

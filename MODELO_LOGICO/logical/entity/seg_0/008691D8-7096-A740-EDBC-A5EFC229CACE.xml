@@ -41,7 +41,7 @@
 <dataTypeSize>30</dataTypeSize>
 <ownDataTypeParameters>30,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="CARGO" id="964CFA20-661D-51AA-16BF-F3B2052D8A18">
+<Attribute name="ID_CARGO" id="964CFA20-661D-51AA-16BF-F3B2052D8A18">
 <createdBy>logonrmlocal</createdBy>
 <createdTime>2023-09-11 12:06:56 UTC</createdTime>
 <ownerDesignName>MODELO_LOGICO</ownerDesignName>
@@ -51,9 +51,8 @@
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>30</dataTypeSize>
-<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="SALARIO" id="36120EF1-376B-D23B-5BF1-87267A13C49A">
 <createdBy>logonrmlocal</createdBy>
@@ -80,6 +79,46 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_DEPARTAMENTO" id="13770A1D-8C2B-7097-7DB0-172DF9255B21">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-10-09 11:47:03 UTC</createdTime>
+<ownerDesignName>MODELO_LOGICO</ownerDesignName>
+<engineerTo>
+<item key="4B44BF50-6BDA-865D-4430-A2A2353F5BFE" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID1" id="780EF5FA-A558-A963-B6F3-A071DEE5FB5B">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-10-09 11:47:36 UTC</createdTime>
+<generatorID>FE761426-D88E-F435-05E0-24EA6AA1C9A6</generatorID>
+<ownerDesignName>MODELO_LOGICO</ownerDesignName>
+<engineerTo>
+<item key="4B44BF50-6BDA-865D-4430-A2A2353F5BFE" value="true"/>
+</engineerTo>
+<referedAttribute>FAD6C0A4-38C1-C705-4B33-F164F1585C94</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DATA_NASCIMENTO" id="0E2E262E-789D-95DD-261C-85E92A451CB7">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-10-09 11:48:24 UTC</createdTime>
+<ownerDesignName>MODELO_LOGICO</ownerDesignName>
+<engineerTo>
+<item key="4B44BF50-6BDA-865D-4430-A2A2353F5BFE" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>

@@ -22,7 +22,6 @@
 <engineerTo>
 <item key="4B44BF50-6BDA-865D-4430-A2A2353F5BFE" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
@@ -129,6 +128,9 @@
 <item key="4B44BF50-6BDA-865D-4430-A2A2353F5BFE" value="true"/>
 </engineerTo>
 <pk>true</pk>
+<usedAttributes>
+<attributeRef>C71E49DE-650C-33D2-9D4D-758F945CCE62</attributeRef>
+</usedAttributes>
 </identifier>
 </identifiers>
 </Entity>

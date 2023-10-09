@@ -22,7 +22,6 @@
 <engineerTo>
 <item key="4B44BF50-6BDA-865D-4430-A2A2353F5BFE" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
@@ -69,4 +68,18 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="5742692F-46A5-5969-A30B-FE9C734BEFE9" name="BAIRRO PK">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-10-09 11:26:43 UTC</createdTime>
+<ownerDesignName>MODELO_LOGICO</ownerDesignName>
+<engineerTo>
+<item key="4B44BF50-6BDA-865D-4430-A2A2353F5BFE" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>2357078F-3AE9-41C4-A25D-8F59CFC482C7</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
 </Entity>

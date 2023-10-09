@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D3BEFEAB-F45A-F79A-13D8-DB9110D5AFB0" name="PAIS">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="320E10F5-0BC7-90E0-A4CA-FC739DCCF0A2" name="ESTADO_CIVIL">
 <createdBy>logonrmlocal</createdBy>
-<createdTime>2023-09-25 11:56:25 UTC</createdTime>
+<createdTime>2023-10-09 11:31:11 UTC</createdTime>
 <ownerDesignName>MODELO_LOGICO</ownerDesignName>
 <engineerTo>
 <item key="4B44BF50-6BDA-865D-4430-A2A2353F5BFE" value="true"/>
@@ -15,9 +15,9 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="ID" id="1A59A764-1245-0865-8EDD-7A943629D24A">
+<Attribute name="ID" id="A82F6594-FF5B-E50B-7EFB-BCE33B4B3A0B">
 <createdBy>logonrmlocal</createdBy>
-<createdTime>2023-09-25 11:56:54 UTC</createdTime>
+<createdTime>2023-10-09 11:31:19 UTC</createdTime>
 <ownerDesignName>MODELO_LOGICO</ownerDesignName>
 <engineerTo>
 <item key="4B44BF50-6BDA-865D-4430-A2A2353F5BFE" value="true"/>
@@ -27,9 +27,9 @@
 <logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="ID_PAIS" id="BE8C1194-F75F-0DB8-C628-03CD40265ADF">
+<Attribute name="DESCRICAO" id="90FFFFCB-AD58-EC27-30BE-6E6965276DDF">
 <createdBy>logonrmlocal</createdBy>
-<createdTime>2023-09-25 11:57:22 UTC</createdTime>
+<createdTime>2023-10-09 11:31:26 UTC</createdTime>
 <ownerDesignName>MODELO_LOGICO</ownerDesignName>
 <engineerTo>
 <item key="4B44BF50-6BDA-865D-4430-A2A2353F5BFE" value="true"/>
@@ -40,15 +40,29 @@
 <logicalDatatype>LOGDT024</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="ID1" id="6999BC86-8843-9B5B-34C2-0A58F60A6CE5">
+<Attribute name="ID1" id="674601F8-B5CD-ABE5-B5A8-C7B7F3469D38">
 <createdBy>logonrmlocal</createdBy>
-<createdTime>2023-10-09 11:26:09 UTC</createdTime>
-<generatorID>2DBC9934-BF28-CC5A-0CFA-F26CF7AD65E3</generatorID>
+<createdTime>2023-10-09 11:31:52 UTC</createdTime>
+<generatorID>C56B1083-5A7F-704B-F150-3B7AFC3AE667</generatorID>
 <ownerDesignName>MODELO_LOGICO</ownerDesignName>
 <engineerTo>
 <item key="4B44BF50-6BDA-865D-4430-A2A2353F5BFE" value="true"/>
 </engineerTo>
-<referedAttribute>C71E49DE-650C-33D2-9D4D-758F945CCE62</referedAttribute>
+<referedAttribute>2D6E466D-F0E3-83F9-6FCD-0FF0F850471D</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID11" id="74F2A952-1487-F1C9-6927-6302DE6B5397">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-10-09 11:31:52 UTC</createdTime>
+<generatorID>C56B1083-5A7F-704B-F150-3B7AFC3AE667</generatorID>
+<ownerDesignName>MODELO_LOGICO</ownerDesignName>
+<engineerTo>
+<item key="4B44BF50-6BDA-865D-4430-A2A2353F5BFE" value="true"/>
+</engineerTo>
+<referedAttribute>EF1636E6-C29E-4989-5FA4-55F1F68A922F</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
@@ -56,16 +70,16 @@
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="1B3BCB24-564B-EEB4-C395-A33506BBD80B" name="PAIS PK">
+<identifier id="0AD0689C-7863-2DD2-E74F-84D1B7A0E9DB" name="ESTADO_CIVIL PK">
 <createdBy>logonrmlocal</createdBy>
-<createdTime>2023-09-25 11:59:35 UTC</createdTime>
+<createdTime>2023-10-09 11:31:43 UTC</createdTime>
 <ownerDesignName>MODELO_LOGICO</ownerDesignName>
 <engineerTo>
 <item key="4B44BF50-6BDA-865D-4430-A2A2353F5BFE" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>1A59A764-1245-0865-8EDD-7A943629D24A</attributeRef>
+<attributeRef>A82F6594-FF5B-E50B-7EFB-BCE33B4B3A0B</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

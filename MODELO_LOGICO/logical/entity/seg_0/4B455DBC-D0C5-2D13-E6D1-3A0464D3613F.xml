@@ -97,6 +97,60 @@
 <dataTypePrecision>11</dataTypePrecision>
 <ownDataTypeParameters>,11,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="ID_SEXO" id="DA2F3D57-D0A4-61E8-5A5A-2BAC2DDAC997">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-10-09 11:19:58 UTC</createdTime>
+<ownerDesignName>MODELO_LOGICO</ownerDesignName>
+<engineerTo>
+<item key="4B44BF50-6BDA-865D-4430-A2A2353F5BFE" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_TIPOCLIENTE" id="38310C42-9213-730F-E622-42861E9D4A55">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-10-09 11:22:47 UTC</createdTime>
+<ownerDesignName>MODELO_LOGICO</ownerDesignName>
+<engineerTo>
+<item key="4B44BF50-6BDA-865D-4430-A2A2353F5BFE" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID1" id="EF1636E6-C29E-4989-5FA4-55F1F68A922F">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-10-09 11:26:09 UTC</createdTime>
+<generatorID>82155111-34E4-567D-32E0-42C9AB1B3719</generatorID>
+<ownerDesignName>MODELO_LOGICO</ownerDesignName>
+<engineerTo>
+<item key="4B44BF50-6BDA-865D-4430-A2A2353F5BFE" value="true"/>
+</engineerTo>
+<referedAttribute>C71E49DE-650C-33D2-9D4D-758F945CCE62</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID2" id="623821FC-AA38-6B90-A972-256C36490D63">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-10-09 11:32:01 UTC</createdTime>
+<generatorID>430C05C7-2EEF-28CE-51BA-FFAE864AD2B4</generatorID>
+<ownerDesignName>MODELO_LOGICO</ownerDesignName>
+<engineerTo>
+<item key="4B44BF50-6BDA-865D-4430-A2A2353F5BFE" value="true"/>
+</engineerTo>
+<referedAttribute>DE2311B9-213B-453A-3086-D7FDD8F3783C</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="EC51D4B2-D1D8-E2C6-58D4-F8E8FBC6BE20" name="Cliente PK">
@@ -109,6 +163,7 @@
 <pk>true</pk>
 <usedAttributes>
 <attributeRef>2D6E466D-F0E3-83F9-6FCD-0FF0F850471D</attributeRef>
+<attributeRef>EF1636E6-C29E-4989-5FA4-55F1F68A922F</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>
